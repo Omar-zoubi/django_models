@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<a href=" {% url 'list' %} ">Home Page</a>
   <div>
     <h2>Name:{{ sna.name }}</h2>
     <p>Order: {{ sna.description }}</p>
